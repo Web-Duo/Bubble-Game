@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "futura";
+}
+*::selection{
+    background-color: #7e22ce;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #be81f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+}
+.scoreboard{
+    height: 15vh;
+    width: 100%;
+    background-color: #7e22ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    color: #fff;
+}
+.scoreboard span{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 3px;
+    color: #7e22ce;
+    text-align: center;
+}
+.playarea{
+    height: 65vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7e22ce;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#time{
+    width: 40px;
+}
+#sc{
+    width: 60px;
+}
+.bubble:hover{
+    background-color: #390f5e;
+    cursor: pointer;
+}
+.playarea h1{
+    color: #7e22ce;
+}
